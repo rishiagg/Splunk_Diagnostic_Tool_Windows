@@ -42,63 +42,12 @@ echo "</textarea><br/><br/><br/><table class="confluenceTable" style="color: rgb
 
 
 echo "</p><br/><br/> <li><span style="color:#008000;"><strong>  Ping test with LogIT Infra  </strong></span></li><br/> <textarea name="Ping" rows="10" cols="150" style="margin:1px; padding:1px; ">" >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-ping nps03.fwd.logit.cba >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-echo. >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-ping nps04.fwd.logit.cba >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-echo. >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-ping nps05.fwd.logit.cba >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-echo. >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-ping ipnet01.deployment.logit.cba >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-echo. >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-ping p0041syl3179.s1.chp.cba  >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-echo. >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-ping s2.fwd.logit.cba  >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-echo. >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-ping s301.deployment.logit.cba  >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-echo. >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-ping s401.deployment.logit.cba  >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-echo. >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-ping clustermgr.indexclusterS501.logit.cba  >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-echo. >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-ping s601.deployment.logit.cba  >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-echo. >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-ping clustermgr.indexclusters701.logit.cba >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-echo. >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-ping clustermgr.indexclusters801.logit.cba >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-echo. >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-ping svdc01.deployment.logit.cba >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-echo. >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-ping svdc02.deployment.logit.cba >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-echo. >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-ping cmc01.deployment.logit.cba >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-echo. >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-ping BURCA-PRMS01 >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-echo. >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-ping NORCA-PRMS01 >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-echo. >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-ping NORCA-STMS01 >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
+ping XXXXXXXXXXXX >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
 echo. >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
 echo "</textarea><br/><br/><br/><table class="confluenceTable" style="color: rgb(51, 51, 51); border-collapse: collapse; margin: 0px; overflow-x: auto; font-family: Arial, sans-serif; font-size: 14px; background-color: rgb(255, 255, 255);"> <tbody>   <tr>   	<td class="confluenceTd" colspan="5" rowspan="2" style="border: 1px solid rgb(221, 221, 221); padding: 7px 10px; vertical-align: top; min-width: 8px;"><strong><span style="color:#008000;">Ping test with LogIT Infra<font face="Times New Roman" size="3">&nbsp;</font></span></strong></td> </tr> <tr> </tr> <tr> <td class="confluenceTd" style="border: 1px solid rgb(221, 221, 221); padding: 7px 10px; vertical-align: top; min-width: 8px;"><span style="color:#008000;"><font face="Times New Roman" size="3">Criteria</font></span></td>   	<td class="confluenceTd" colspan="4" style="border: 1px solid rgb(221, 221, 221); padding: 7px 10px; vertical-align: top; min-width: 8px;"><span style="color:#008000;"><font face="Times New Roman" size="3">If all servers give a <strong> Ping request could not find host XXX </strong>message</font></span></td>   </tr> <tr> <td class="confluenceTd" style="border: 1px solid rgb(221, 221, 221); padding: 7px 10px; vertical-align: top; min-width: 8px;"><span style="color:#008000;"><font face="Times New Roman" size="3">Issue</font></span></td>   	<td class="confluenceTd" colspan="4" style="border: 1px solid rgb(221, 221, 221); padding: 7px 10px; vertical-align: top; min-width: 8px;"><span style="color:#008000;"><font face="Times New Roman" size="3">Engage the network engineer to burn the firewall rules based on the zone of source</font></span></td> </tr>   <tr>   	<td class="confluenceTd" style="border: 1px solid rgb(221, 221, 221); padding: 7px 10px; vertical-align: top; min-width: 8px;"><span style="color:#008000;"><font face="Times New Roman" size="3">Remediation</font></span></td>   	<td class="confluenceTd" colspan="4" style="border: 1px solid rgb(221, 221, 221); padding: 7px 10px; vertical-align: top; min-width: 8px;"><font face="Times New Roman" size="3"><span style="color:#008000;">Burn the Firewall rules as per the guide</span></font></td>   </tr>   	</tbody>  </table>" >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
 
 echo "<br/><br/><li><span style="color:#008000;">  Telnet test with LogIT Infra <b>( Ignore this Section )</b> </span></li><br/> <textarea name="Telnet" rows="2" cols="150" style="margin:1px; padding:1px; ">" >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-telnet nps03.fwd.logit.cba 8089 -f  %path1%%path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-telnet nps04.fwd.logit.cba 8089 >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-telnet nps05.fwd.logit.cba 8089 >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-telnet ipnet01.deployment.logit.cba 8089 >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-telnet p0041syl3179.s1.chp.cba  8089 >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-telnet s2.fwd.logit.cba  8089 >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-telnet s301.deployment.logit.cba  8089 >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-telnet s401.deployment.logit.cba  8089 >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-telnet clustermgr.indexclusterS501.logit.cba  8089 >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-telnet s601.deployment.logit.cba  8089 >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-telnet clustermgr.indexclusters701.logit.cba 8089 >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-telnet clustermgr.indexclusters801.logit.cba 8089 >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-telnet svdc01.deployment.logit.cba 8089 >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-telnet svdc02.deployment.logit.cba 8089 >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-telnet cmc01.deployment.logit.cba 8089 >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-telnet BURCA-PRMS01 8089 >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-telnet NORCA-PRMS01 8089 >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
-telnet NORCA-STMS01 8089 >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
+telnet XXXXXXXXX 8089 -f  %path1%%path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
 echo "</textarea>"  >> %path1%\%COMPUTERNAME%-%DATE:~4,2%%DATE:~7,2%%DATE:~-4%.html
 
 
